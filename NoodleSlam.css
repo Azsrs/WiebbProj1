@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Italiana";
+  src: url(Fonts/Italiana/Italiana-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Dokdo";
+  src: url(Fonts/East_Sea_Dokdo/EastSeaDokdo-Regular.ttf);
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 20vh 80vh;
+  background-color: #cf8787;
+}
+
+#titel h1 {
+  font-family: "Italiana";
+  color: #ff0000;
+}
+
+#titel p {
+    font-family: "Dokdo";
+    font-size: 30px;
+    margin-top: -25px;
+}
+
+#titel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Om {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: larger;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  background-color: #b17171;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+img {
+  grid-column: 3/3;
+  grid-row: 1/2;
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+#Ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: #b17171;
+    margin: 100px 20px 50px 20px;
+    border-radius: 40px;
+}
+
+#Ingredients h2 {
+    text-align: center;
+}

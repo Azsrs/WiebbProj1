@@ -11,7 +11,7 @@
 body {
   background-color: #cdd2c6;
   display: grid;
-  grid-template-rows: 10vh 68vh 19vh;
+  grid-template-rows: 10vh 78vh 9vh;
 }
 
 header {
@@ -48,10 +48,23 @@ main div {
 }
 
 footer {
-    grid-row: 3/3;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    
+  grid-row: 3/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  justify-self: center;
+  background-color: red;
+  margin-top: 32px;
+}
+
+footer div {
+  font-size: 20px;
+  color: white;
+  font-family: "Impact";
+  -webkit-text-stroke: black 0.8px;
+}
+
+a {
+  text-decoration: none;
 }
