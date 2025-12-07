@@ -45,7 +45,7 @@ margin-left: 50px;
   background-color: #b17171;
   padding: 40px;
   border-radius: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 img {
@@ -55,7 +55,7 @@ img {
   align-self: stretch;
   justify-content: center;
   border-radius: 40px;
-  margin-top: 20px;
+  margin-top: 3px;
 }
 
 #Ingredients {
@@ -99,6 +99,10 @@ font-size: 30px;
 }
 
 h1 a {
-    text-decoration: none;
     color: inherit;
+}
+
+a {
+    text-decoration: none;
+
 }
