@@ -16,6 +16,7 @@ body {
 }
 
 #titel h1 {
+margin-left: 50px;
   font-family: "Italiana";
   color: #ff0000;
 }
@@ -24,6 +25,7 @@ body {
   font-family: "Dokdo";
   font-size: 30px;
   margin-top: -25px;
+  margin-left: 50px;
 }
 
 #titel {
@@ -43,6 +45,7 @@ body {
   background-color: #b17171;
   padding: 40px;
   border-radius: 40px;
+  margin-top: 40px;
 }
 
 img {
@@ -52,6 +55,7 @@ img {
   align-self: stretch;
   justify-content: center;
   border-radius: 40px;
+  margin-top: 20px;
 }
 
 #Ingredients {
